@@ -30,19 +30,14 @@ namespace TeoriaGiorno2.Models
             {
                 return _nome.ToUpper();
             }
+            set
+            {
+                _nome = value;
+            }
         }
 
         public string Cognome { get; set; }
 
-        public Studente()
-        {
-
-        }
-
-        public Studente(string nome)
-        {
-            _nome = nome;
-        }
 
         public void StampaInfo()
         {

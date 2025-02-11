@@ -1,25 +1,54 @@
-﻿using TeoriaGiorno2.Models;
+﻿#region first
 
-Studente studente1 = new Studente()
+//using TeoriaGiorno2.Models;
+
+//Studente studente1 = new Studente()
+//{
+//    Matricola = 246796,
+//    Cognome = "De Meis"
+//};
+
+//Console.WriteLine(studente1.Nome);
+
+//studente1.Cognome = "De Meis";
+
+//Console.WriteLine(studente1.Cognome);
+
+//studente1.StampaInfo();
+
+//var nomeCompleto = studente1.NomeCompleto();
+
+//Console.WriteLine(nomeCompleto);
+
+//studente1.MostraMessaggio("messaggio");
+
+#endregion
+
+#region second
+using TeoriaGiorno2.Models;
+
+int numero1 = 5;
+int numero2 = numero1;
+
+Studente studente2 = new Studente()
 {
     Matricola = 246796
 };
 
-Console.WriteLine(studente1.Nome);
+var studente4 = new Studente();
 
-studente1.Cognome = "De Meis";
+Studente studente3 = studente2;
 
-Console.WriteLine(studente1.Cognome);
+studente3.Matricola = 333333;
 
-studente1.StampaInfo();
+Console.WriteLine(studente2.Matricola);
+Console.WriteLine(studente3.Matricola);
 
-var nomeCompleto = studente1.NomeCompleto();
+var nome = "true";
 
-Console.WriteLine(nomeCompleto);
+Console.WriteLine(nome);
 
-studente1.MostraMessaggio("messaggio");
-
-
-
+var numero5 = 5.0m;
+#endregion
 
 

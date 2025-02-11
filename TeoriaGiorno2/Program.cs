@@ -78,3 +78,6 @@ var numero5 = 5.0m;
 //}
 //while (counter >= 0);
 
+List<int> words = new List<int>();
+
+

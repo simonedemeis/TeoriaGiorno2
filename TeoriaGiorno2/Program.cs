@@ -51,4 +51,30 @@ Console.WriteLine(nome);
 var numero5 = 5.0m;
 #endregion
 
+//int[] numbers = { 1, 2, 3, 4, 5, 6 };
+
+//foreach(int number in numbers)
+//{
+//    Console.WriteLine(number);
+//}
+
+//for (int i = 0; i <= numbers.Length - 1; i++)
+//{
+//    Console.WriteLine(numbers[i]);
+//}
+
+//int counter = numbers.Length - 1;
+
+//while(counter >= 0)
+//{
+//    Console.WriteLine(numbers[counter]);
+//    counter--;
+//}
+
+//do
+//{
+//    Console.WriteLine(numbers[counter]);
+//    counter--;
+//}
+//while (counter >= 0);
 

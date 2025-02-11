@@ -10,14 +10,13 @@ namespace TeoriaGiorno2.Models
     {
         private int _matricola;
         private string _nome = "simone";
-        private string _cognome;
-        private string _facolta;
 
         public int Matricola
         {
             get
             {
                 return _matricola;
+
             }
             set
             {
@@ -31,6 +30,40 @@ namespace TeoriaGiorno2.Models
             {
                 return _nome.ToUpper();
             }
+        }
+
+        public string Cognome { get; set; }
+
+        public Studente()
+        {
+
+        }
+
+        public Studente(string nome)
+        {
+            _nome = nome;
+        }
+
+        public void StampaInfo()
+        {
+            Console.WriteLine("Ciao a tutti sono uno studente");
+        }
+
+        public string NomeCompleto()
+        {
+            return _nome + " " + Cognome;
+        }
+
+        public void MostraMessaggio(string messaggio, string nome = "Simone")
+        {
+            Console.WriteLine(messaggio);
+            Console.WriteLine(nome);
+        }
+
+        public void MostraMessaggio(string messaggio)
+        {
+            var messaggioMaiuscolo = messaggio.ToUpper();
+            Console.WriteLine(messaggioMaiuscolo);
         }
     }
 }

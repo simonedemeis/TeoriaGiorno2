@@ -111,9 +111,10 @@ var numero5 = 5.0m;
 //    Console.WriteLine(numero);
 //}
 
-//Dictionary<int, string> utenti = new Dictionary<int, string>();
+//Dictionary<Guid, string> utenti = new Dictionary<Guid, string>();
 
-//utenti.Add(1, "Simone");
+//utenti.Add(Guid.NewGuid(), "Simone");
+//utenti.Add(Guid.NewGuid(), "Mario");
 
 //foreach (int key in utenti.Keys)
 //{
@@ -125,10 +126,19 @@ var numero5 = 5.0m;
 //    Console.WriteLine(value);
 //}
 
-//foreach (KeyValuePair<int, string> utente in utenti)
+//List<Utente> newList = new List<Utente>();
+
+//foreach (var utente in utenti)
 //{
-//    Console.WriteLine(utente.Key);
-//    Console.WriteLine(utente.Value);
+//    newList.Add(
+//        new Utente() { Id = utente.Key, Name = utente.Value}
+//        );
+//}
+
+//foreach (var utente in newList)
+//{
+//    Console.WriteLine(utente.Id);
+//    Console.WriteLine(utente.Name);
 //}
 
 

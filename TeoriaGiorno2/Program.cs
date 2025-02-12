@@ -162,3 +162,8 @@ using TeoriaGiorno2.Models;
 
 Utente utente1 = new Utente();
 
+
+Manuale.Argomento = "OOP";
+
+Manuale.MostraArgomento();
+

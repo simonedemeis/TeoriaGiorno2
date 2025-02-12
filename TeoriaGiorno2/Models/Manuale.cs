@@ -6,19 +6,24 @@ using System.Threading.Tasks;
 
 namespace TeoriaGiorno2.Models
 {
-    public class Manuale : Libro
+    public class Manuale
     {
-        public string Argomento { get; set; }
+        public static string Argomento { get; set; }
 
-        public Manuale(string titolo, string autore, string argomento) : base(titolo, autore) 
-        {  
-            Argomento = argomento; 
-        }
+        //public Manuale(string titolo, string autore, string argomento) : base(titolo, autore) 
+        //{  
+        //    Argomento = argomento; 
+        //}
         //il metodo sovrascritto deve avere stesso nome e stessa lista parametri e tipo di ritorno (firma)
-        public override void Descrizione()
-        { 
+        //public void Descrizione()
+        //{ 
             
-            Console.WriteLine($"Sono un manuale e ho il titolo: {base.Titolo}");
+        //    Console.WriteLine($"Sono un manuale e ho il titolo: {base.Titolo}");
+        //}
+
+        public static void MostraArgomento()
+        {
+            Console.WriteLine(Argomento);
         }
     }
 }

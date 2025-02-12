@@ -78,6 +78,14 @@ var numero5 = 5.0m;
 //}
 //while (counter >= 0);
 
-List<int> words = new List<int>();
+//List<string> words = new List<string>();
+
+//words.Add("1");
+//words.Remove("2");
+//words.Clear();
+
+//Console.WriteLine(words.Count);
+
+
 
 

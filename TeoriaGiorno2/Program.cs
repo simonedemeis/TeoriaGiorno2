@@ -86,6 +86,51 @@ var numero5 = 5.0m;
 
 //Console.WriteLine(words.Count);
 
+//List<int> numbers = new List<int>() { 1, 2, 3, 6, 12, 20, 40 };
+
+//Definiamo una lista di appoggi perchè non possiamo modificare la lista originale durante i cicli iterativi, pena eccezioni o errori di calcolo.
+//List<int> filteredNumbers = new List<int>();
+
+//for (int i = 0; i <= numbers.Count - 1; i++)
+//{
+//    if (numbers[i] <= 6)
+//    {
+//        filteredNumbers.Add(numbers[i]);
+//    }
+//}
+
+//numbers = filteredNumbers;
+
+//foreach (var number in numbers)
+//{
+//    Console.WriteLine(number);
+//}
+
+//foreach (int numero in numbers)
+//{
+//    Console.WriteLine(numero);
+//}
+
+//Dictionary<int, string> utenti = new Dictionary<int, string>();
+
+//utenti.Add(1, "Simone");
+
+//foreach (int key in utenti.Keys)
+//{
+//    Console.WriteLine(key);
+//}
+
+//foreach (string value in utenti.Values)
+//{
+//    Console.WriteLine(value);
+//}
+
+//foreach (KeyValuePair<int, string> utente in utenti)
+//{
+//    Console.WriteLine(utente.Key);
+//    Console.WriteLine(utente.Value);
+//}
+
 
 
 

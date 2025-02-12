@@ -13,6 +13,31 @@ namespace TeoriaGiorno2.Models
 
         public void Saluta(string messaggio)
         {
+            //string res = "";
+
+            //switch (messaggio)
+            //{
+            //    case "":
+            //        res = "Il messaggio è vuoto!";
+            //        Console.WriteLine(res);
+            //        break;
+            //    case " ":
+            //        Console.WriteLine("Il messaggio contiene solo spazi!");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Condizione di default");
+            //        break;
+            //}
+
+            //var result = messaggio switch
+            //{
+            //    "" => "Il messaggio è vuoto!",
+            //    " " => "Il messaggio contiene solo spazi!",
+            //    _ => "default"
+            //};
+
+            //Console.WriteLine(result);
+
             //if(messaggio != "" && messaggio != null && messaggio != " ")
             //{
             //    Console.WriteLine(messaggio);

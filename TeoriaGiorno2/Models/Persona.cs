@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace TeoriaGiorno2.Models
 {
-    public abstract class Persona
+    public class Persona
     {
-        public abstract string Nome { get; set; }
-        public abstract string Cognome { get; set; }
+        public string Nome { get; set; }
+        public string Cognome { get; set; }
 
-        public abstract void Saluta();
+        public virtual void Saluta()
+        {
+            Console.WriteLine("ciao sono una persona");
+        }
+        public void Cammina()
+        {
+            Console.WriteLine("Sto camminando");
+        }
     }
 }

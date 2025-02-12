@@ -25,30 +25,30 @@
 #endregion
 
 #region second
-using TeoriaGiorno2.Models;
+//using TeoriaGiorno2.Models;
 
-int numero1 = 5;
-int numero2 = numero1;
+//int numero1 = 5;
+//int numero2 = numero1;
 
-Studente studente2 = new Studente()
-{
-    Matricola = 246796
-};
+//Studente studente2 = new Studente()
+//{
+//    Matricola = 246796
+//};
 
-var studente4 = new Studente();
+//var studente4 = new Studente();
 
-Studente studente3 = studente2;
+//Studente studente3 = studente2;
 
-studente3.Matricola = 333333;
+//studente3.Matricola = 333333;
 
-Console.WriteLine(studente2.Matricola);
-Console.WriteLine(studente3.Matricola);
+//Console.WriteLine(studente2.Matricola);
+//Console.WriteLine(studente3.Matricola);
 
-var nome = "true";
+//var nome = "true";
 
-Console.WriteLine(nome);
+//Console.WriteLine(nome);
 
-var numero5 = 5.0m;
+//var numero5 = 5.0m;
 #endregion
 
 #region third
@@ -145,4 +145,20 @@ var numero5 = 5.0m;
 
 #endregion
 
+
+using TeoriaGiorno2.Models;
+
+//Libro libro1 = new Libro();
+
+//Libro manuale = new Manuale();
+
+//Manuale manuale2 = new Manuale();
+
+//manuale.Descrizione();
+
+//Manuale manuale = new Manuale("Un titolo", "Un autore", "OOP");
+
+//manuale.Descrizione();
+
+Utente utente1 = new Utente();
 

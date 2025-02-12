@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace TeoriaGiorno2.Models
 {
-    public class Studente : Persona
+    public partial class Utente : Persona
     {
-        public override void Saluta()
-        {
-            Console.WriteLine("ciao sono uno studente");
-        }
+        public string Nome {  get; set; }
     }
 }

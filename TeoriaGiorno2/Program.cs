@@ -51,6 +51,8 @@ Console.WriteLine(nome);
 var numero5 = 5.0m;
 #endregion
 
+#region third
+
 //int[] numbers = { 1, 2, 3, 4, 5, 6 };
 
 //foreach(int number in numbers)
@@ -141,6 +143,6 @@ var numero5 = 5.0m;
 //    Console.WriteLine(utente.Name);
 //}
 
-
+#endregion
 
 

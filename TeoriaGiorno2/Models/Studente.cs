@@ -6,59 +6,14 @@ using System.Threading.Tasks;
 
 namespace TeoriaGiorno2.Models
 {
-    public class Studente
+    public class Studente : Persona
     {
-        private int _matricola;
-        private string _nome = "simone";
+        public override string Nome { get; set; }
+        public override string Cognome { get; set; }
 
-        public int Matricola
+        public override void Saluta()
         {
-            get
-            {
-                return _matricola;
-
-            }
-            set
-            {
-                _matricola = value;
-            }
-        }
-
-        public string Nome
-        {
-            get
-            {
-                return _nome.ToUpper();
-            }
-            set
-            {
-                _nome = value;
-            }
-        }
-
-        public string Cognome { get; set; }
-
-
-        public void StampaInfo()
-        {
-            Console.WriteLine("Ciao a tutti sono uno studente");
-        }
-
-        public string NomeCompleto()
-        {
-            return _nome + " " + Cognome;
-        }
-
-        public void MostraMessaggio(string messaggio, string nome = "Simone")
-        {
-            Console.WriteLine(messaggio);
-            Console.WriteLine(nome);
-        }
-
-        public void MostraMessaggio(string messaggio)
-        {
-            var messaggioMaiuscolo = messaggio.ToUpper();
-            Console.WriteLine(messaggioMaiuscolo);
+            Console.WriteLine("ciao");
         }
     }
 }
